@@ -22,8 +22,5 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Note
+Put the frontend.env file that provided on the root folder and remove the 'frontend' on the name of the file to make it .env. Make sure that the VITE_SERVER_API_URL= is same on the localhost of your Detective Domain API localhost.
